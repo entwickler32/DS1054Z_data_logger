@@ -1,7 +1,7 @@
 # DS1054Z_data_logger
 
 This script is modified to run in a python3 environment.
-With python3.13 there is no telnetlib bundled any more. It necessary to install telnetlib-313-and-up (https://pypi.org/project/telnetlib-313-and-up/).
+With python3.13 there is no telnetlib bundled any more. It is necessary to install telnetlib-313-and-up (https://pypi.org/project/telnetlib-313-and-up/).
 
 '**DS1054Z_logger.py**' is a Python script that adds Vavg measurement for all the 4 channels of a Rigol DS1054Z oscilloscope, then periodically log the Vavg values in a PC file using a LAN connexion between computer and oscilloscope. No drivers are required to be installed on the PC.
 
